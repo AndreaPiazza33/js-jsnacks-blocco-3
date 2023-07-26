@@ -42,20 +42,33 @@
 //console.log(numberList);
 
 //QUARTA TRACCIA:
-const numberList = [];
+//const numberList = [];
 
-let numberSum = 0;
+//let numberSum = 0;
 
 
 
-while (numberSum < 50) {
-    let userNumber = parseInt(prompt("inserisci un numero"));   
-    numberSum += userNumber;
+//while (numberSum < 50) {
+    //let userNumber = parseInt(prompt("inserisci un numero"));   
+    //numberSum += userNumber;
 
-if (numberSum < 50){
-    numberList.push(userNumber)    
-}    
+//if (numberSum < 50){
+    //numberList.push(userNumber)    
+//}    
+//}
+//let averageNumber = (numberSum / numberList.length) 
+//console.log(numberList.length);
+//console.log(averageNumber)
+
+//QUINTA TRACCIA
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenNumbers = [];
+
+for (let i = 0; i < numbers.length - 1; i++) {
+    if (numbers[i] % 2 == 0) {
+        evenNumbers.push(i);
+    }  
 }
-let averageNumber = (numberSum / numberList.length) 
-console.log(numberList.length);
-console.log(averageNumber)
+console.log(evenNumbers);
+
+// dovrebbe restituire [1,3,5]	
