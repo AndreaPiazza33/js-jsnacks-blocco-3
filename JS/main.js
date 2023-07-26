@@ -28,15 +28,34 @@
 //}
 
 //TERZA TRACCIA:
+//const numberList = [];
+
+//let numberSum = 0;
+//while (numberSum < 50) {
+    //let userNumber = parseInt(prompt("inserisci un numero"));   
+    // numberSum += userNumber;
+
+//if (numberSum < 50){
+    //numberList.push(userNumber)    
+//}    
+//}
+//console.log(numberList);
+
+//QUARTA TRACCIA:
 const numberList = [];
 
 let numberSum = 0;
+
+
+
 while (numberSum < 50) {
     let userNumber = parseInt(prompt("inserisci un numero"));   
-     numberSum += userNumber;
-     
+    numberSum += userNumber;
+
 if (numberSum < 50){
     numberList.push(userNumber)    
 }    
 }
-console.log(numberList);
+let averageNumber = (numberSum / numberList.length) 
+console.log(numberList.length);
+console.log(averageNumber)

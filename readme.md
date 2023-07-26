@@ -30,3 +30,17 @@ Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. Contin
 - inserire il numero nell'array,
 - ripetere questa operazione fino a quando:
   - la somma dei numeri scelti è inferiore a 50.
+
+# QUARTA TRACCIA
+
+## descrizione:
+Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando la somma degli elementi è minore di 50.
+Calcola la media dei numeri inseriti.
+
+## procedimento:
+- creare un array vuoto;
+- chiedere un numero all'utente,
+- inserire il numero nell'array,
+- ripetere questa operazione fino a quando:
+  - la somma dei numeri scelti è inferiore a 50.
+- calcolare la media dei numeri inseriti
