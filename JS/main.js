@@ -14,15 +14,29 @@
 //console.log(randomNumber);
 
 //SECONDA TRACCIA:
-let firstWord = prompt("inserisci una parola")
-let secondWord = prompt("inserisci un'altra parola")
+//let firstWord = prompt("inserisci una parola")
+//let secondWord = prompt("inserisci un'altra parola")
 
-if (firstWord.length == secondWord.length) {
-    console.log(firstWord,secondWord)
+//if (firstWord.length == secondWord.length) {
+    //console.log(firstWord,secondWord)
+//}
+//else if (firstWord > secondWord){
+    //console.log(firstWord);
+//}
+//else{
+    //console.log(secondWord);
+//}
+
+//TERZA TRACCIA:
+const numberList = [];
+
+let numberSum = 0;
+while (numberSum < 50) {
+    let userNumber = parseInt(prompt("inserisci un numero"));   
+     numberSum += userNumber;
+     
+if (numberSum < 50){
+    numberList.push(userNumber)    
+}    
 }
-else if (firstWord > secondWord){
-    console.log(firstWord);
-}
-else{
-    console.log(secondWord);
-}
+console.log(numberList);
