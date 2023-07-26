@@ -14,3 +14,15 @@
 //console.log(randomNumber);
 
 //SECONDA TRACCIA:
+let firstWord = prompt("inserisci una parola")
+let secondWord = prompt("inserisci un'altra parola")
+
+if (firstWord.length == secondWord.length) {
+    console.log(firstWord,secondWord)
+}
+else if (firstWord > secondWord){
+    console.log(firstWord);
+}
+else{
+    console.log(secondWord);
+}
